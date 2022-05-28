@@ -1,0 +1,184 @@
+h4 {/* My Logo */
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+
+  align-items: center;
+  text-align: center;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Logo Placeholder */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  padding: 10px 12px;
+  position: absolute;
+  width: 100px;
+  left: 40px;
+  top: calc(2% - 40px / 2);
+}
+
+nav {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px 1600px;
+  gap: 10px;
+  width: 86px;
+  height: 40px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+body {
+  background-image: url("Header bg.svg");
+}
+
+h1 {
+  /* Primary Text */
+
+  /* height: 122px; */
+
+  /* Header / 1 */
+
+  /* font-family: 'Poppins'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+
+  /* or 125% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
+
+  /* Theme 1 / Neutrals 1 */
+
+  color: #091e42;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Auto layout */
+
+  flex-direction: column;
+  padding: 0;
+  gap: 12px;
+  position: absolute;
+  width: 450px;
+  height: 268px;
+  left: 260px;
+  top: calc(40% - 268px / 2);
+}
+
+div {
+  /* Primary Text */
+
+  width: 920px;
+
+  /* Body / 1 */
+
+  /* font-family: 'Poppins'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  /* or 140% */
+
+  /* Theme 1 / Neutrals 3 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  position: absolute;
+
+  /* width: 920px; */
+
+  height: 268px;
+  left: 260px;
+  top: calc(58% - 268px / 2);
+}
+
+a {
+  /* social media icons */
+  position: absolute;
+  width: 170.17px;
+  left: 260px;
+  top: 560px;
+}
+
+h5 {/* LET’S CONNECT */
+  /* width: 117px;
+  height: 24px; */
+
+  /* Body / 2 - Bolder */
+
+  /* font-family: 'Poppins'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
+
+  color: #7f8cff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  position: absolute;
+  width: 920px;
+  height: 268px;
+  left: 260px;
+  top: calc(68% - 268px / 2);
+}
