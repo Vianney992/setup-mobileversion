@@ -1,4 +1,46 @@
-h4 {/* My Logo */
+header {
+  position: absolute;
+  width: 1440px;
+  height: 846px;
+  left: 200px;
+  top: 71px;
+}
+
+.background-image {
+  background-image: url("Header bg@2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1440px;
+  height: 846px;
+  left: -210px;
+  top: -80px;
+}
+
+.container-1 {
+  position: absolute;
+  width: 1440px;
+  height: 846px;
+  left: 200px;
+  top: 71px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.navbar {
+  background: #fff;
+  color: rgb(0, 0, 0);
+  height: 72px;
+}
+
+.navbar .logo {
+  /* My Logo */
+
+  width: 90px;
   height: 20px;
   font-style: normal;
   font-weight: 700;
@@ -6,7 +48,7 @@ h4 {/* My Logo */
   line-height: 20px;
 
   /* identical to box height, or 111% */
-
+  display: flex;
   align-items: center;
   text-align: center;
 
@@ -19,50 +61,23 @@ h4 {/* My Logo */
   flex: none;
   order: 0;
   flex-grow: 0;
-
-  /* Logo Placeholder */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  padding: 10px 12px;
-  position: absolute;
-  width: 100px;
-  left: 40px;
-  top: calc(2% - 40px / 2);
 }
 
-nav {
-  /* Auto layout */
-
+.navbar .container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  padding: 25px 1600px;
-  gap: 10px;
-  width: 86px;
-  height: 40px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
-
-body {
-  background-image: url("Header bg.svg");
+  height: 100%;
 }
 
 h1 {
   /* Primary Text */
 
-  /* height: 122px; */
+  width: 420px;
+  height: 121px;
 
   /* Header / 1 */
 
-  /* font-family: 'Poppins'; */
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -83,27 +98,19 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
-
-  /* Auto layout */
-
-  flex-direction: column;
-  padding: 0;
-  gap: 12px;
   position: absolute;
-  width: 450px;
-  height: 268px;
-  left: 260px;
-  top: calc(40% - 268px / 2);
+  left: 0;
+  top: 82px;
 }
 
-div {
+p {
   /* Primary Text */
 
   width: 920px;
+  height: 98px;
 
   /* Body / 1 */
 
-  /* font-family: 'Poppins'; */
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -120,38 +127,19 @@ div {
   flex: none;
   order: 1;
   flex-grow: 0;
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  gap: 12px;
   position: absolute;
-
-  /* width: 920px; */
-
-  height: 268px;
-  left: 260px;
-  top: calc(58% - 268px / 2);
+  left: 0;
+  top: 252px;
 }
 
-a {
-  /* social media icons */
-  position: absolute;
-  width: 170.17px;
-  left: 260px;
-  top: 560px;
-}
+h5 {
+  /* LET’S CONNECT */
 
-h5 {/* LET’S CONNECT */
-  /* width: 117px;
-  height: 24px; */
+  width: 217px;
+  height: 24px;
 
   /* Body / 2 - Bolder */
 
-  /* font-family: 'Poppins'; */
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -168,17 +156,17 @@ h5 {/* LET’S CONNECT */
   flex: none;
   order: 0;
   flex-grow: 0;
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  gap: 12px;
   position: absolute;
-  width: 920px;
-  height: 268px;
-  left: 260px;
-  top: calc(68% - 268px / 2);
+  left: 0;
+  top: 342px;
+}
+
+a {
+  /* social media icons */
+
+  position: absolute;
+  width: 170.17px;
+  height: 20px;
+  left: 0;
+  top: 402px;
 }
