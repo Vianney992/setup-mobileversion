@@ -1,0 +1,232 @@
+header {
+  position: absolute;
+  width: 1440px;
+  height: 846px;
+  left: 200px;
+  top: 71px;
+}
+
+.background-image {
+  background-image: url("Header bg@2x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1440px;
+  height: 846px;
+  left: 0;
+  top: 40px;
+}
+
+section {
+  position: absolute;
+  width: 1440px;
+  height: 846px;
+  left: 200px;
+  top: 162px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.navbar {
+  background: #fff;
+  color: rgb(0, 0, 0);
+  height: 0;
+}
+
+.navbar .logo {
+  /* My Logo */
+
+  width: 90px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+}
+
+h1 {
+  /* Primary Text */
+
+  width: 420px;
+  height: 121px;
+
+  /* Header / 1 */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+
+  /* or 125% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
+
+  /* Theme 1 / Neutrals 1 */
+
+  color: #091e42;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  left: 0;
+  top: 82px;
+}
+
+p {
+  /* Primary Text */
+
+  width: 920px;
+  height: 98px;
+
+  /* Body / 1 */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  /* or 140% */
+
+  /* Theme 1 / Neutrals 3 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  left: 0;
+  top: 252px;
+}
+
+button {
+  /* LET’S CONNECT */
+
+  width: 137px;
+  height: 24px;
+
+  /* Body / 2 - Bolder */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
+
+  color: #7f8cff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+  left: 0;
+  top: 382px;
+}
+
+.twitter {
+  /* twitter */
+
+  position: absolute;
+  left: 0.06%;
+  right: 80.56%;
+  top: 52.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.linkedin {
+  /* linkedin */
+
+  position: absolute;
+  left: 3.06%;
+  right: 80.56%;
+  top: 52.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.medium {
+  /* medium */
+
+  position: absolute;
+  left: 6.06%;
+  right: 80.56%;
+  top: 52.83%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.github {
+  /* github */
+
+  position: absolute;
+  left: 9.06%;
+  right: 80.56%;
+  top: 52.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.angellist {
+  /* angellist */
+
+  position: absolute;
+  left: 12.06%;
+  right: 80.56%;
+  top: 52.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
