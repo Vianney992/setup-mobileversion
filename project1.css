@@ -13,16 +13,16 @@ header {
   position: absolute;
   width: 1440px;
   height: 846px;
-  left: -210px;
-  top: -80px;
+  left: 0;
+  top: 40px;
 }
 
-.container-1 {
+section {
   position: absolute;
   width: 1440px;
   height: 846px;
   left: 200px;
-  top: 71px;
+  top: 162px;
 }
 
 .container {
@@ -34,7 +34,7 @@ header {
 .navbar {
   background: #fff;
   color: rgb(0, 0, 0);
-  height: 72px;
+  height: 0;
 }
 
 .navbar .logo {
@@ -67,7 +67,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
+  height: 10%;
 }
 
 h1 {
@@ -132,10 +132,10 @@ p {
   top: 252px;
 }
 
-h5 {
+button {
   /* LET’S CONNECT */
 
-  width: 217px;
+  width: 137px;
   height: 24px;
 
   /* Body / 2 - Bolder */
@@ -158,15 +158,75 @@ h5 {
   flex-grow: 0;
   position: absolute;
   left: 0;
-  top: 342px;
+  top: 382px;
 }
 
-a {
-  /* social media icons */
+.twitter {
+  /* twitter */
 
   position: absolute;
-  width: 170.17px;
-  height: 20px;
-  left: 0;
-  top: 402px;
+  left: 0.06%;
+  right: 80.56%;
+  top: 52.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.linkedin {
+  /* linkedin */
+
+  position: absolute;
+  left: 3.06%;
+  right: 80.56%;
+  top: 52.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.medium {
+  /* medium */
+
+  position: absolute;
+  left: 6.06%;
+  right: 80.56%;
+  top: 52.83%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.github {
+  /* github */
+
+  position: absolute;
+  left: 9.06%;
+  right: 80.56%;
+  top: 52.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
+}
+
+.angellist {
+  /* angellist */
+
+  position: absolute;
+  left: 12.06%;
+  right: 80.56%;
+  top: 52.53%;
+  bottom: 87.08%;
+
+  /* Neutrals/N400 */
+
+  background: #505f79;
 }
