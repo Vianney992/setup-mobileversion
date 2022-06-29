@@ -129,15 +129,13 @@ p {
   flex-grow: 0;
   position: absolute;
   left: 0;
-  top: 252px;
+  top: 272px;
 }
 
 button {
   /* LET’S CONNECT */
 
-  width: 137px;
-  height: 24px;
-
+ 
   /* Body / 2 - Bolder */
 
   font-style: normal;
@@ -158,7 +156,31 @@ button {
   flex-grow: 0;
   position: absolute;
   left: 0;
-  top: 382px;
+  top: 282px;
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+
+position: absolute;
+width: 205px;
+height: 18px;
+left: -15px;
+top: calc(43% - 48px/2 + 57.5px);
+
+/* Theme 1 / Neutrals 11 */
+
+background: #FFFFFF;
+/* Theme 1 / Primary Colors 3 */
+
+border: 1px solid white;
+border-radius: 8px;
 }
 
 .twitter {
