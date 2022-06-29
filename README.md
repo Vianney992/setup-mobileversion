@@ -10,19 +10,22 @@ CSS
 Live demo link
 
 ## Authors
-Name : Vianney AHONON
-GitHub: https://github.com/Vianney992
-Twitter: https://twitter.com/AhononV
 
-## Contributing
+👤 **Author1**
+- Name : Vianney AHONON
+- GitHub: https://github.com/Vianney992
+- Twitter: https://twitter.com/AhononV
+
+## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
 ## Show your support
-Give a star if you like this project
+Give a ⭐️ if you like this project!
 
 ## Acknowlegments
 - Hat tip to anyone whose code was used
 - Inspiration
+- etc
  
-## License
-This project is MIT licensed.
+## 📝 License
+This project is [MIT](./MIT.md) licensed.
