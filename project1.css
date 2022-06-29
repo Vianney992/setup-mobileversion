@@ -135,7 +135,6 @@ p {
 button {
   /* LET’S CONNECT */
 
- 
   /* Body / 2 - Bolder */
 
   font-style: normal;
@@ -155,32 +154,28 @@ button {
   order: 0;
   flex-grow: 0;
   position: absolute;
-  left: 0;
-  top: 282px;
+  box-sizing: border-box;
 
-box-sizing: border-box;
+  /* Auto layout */
 
-/* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 205px;
+  height: 18px;
+  left: -15px;
+  top: calc(43% - 48px / 2 + 57.5px);
 
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
-gap: 10px;
+  /* Theme 1 / Neutrals 11 */
 
-position: absolute;
-width: 205px;
-height: 18px;
-left: -15px;
-top: calc(43% - 48px/2 + 57.5px);
+  background: #fff;
 
-/* Theme 1 / Neutrals 11 */
+  /* Theme 1 / Primary Colors 3 */
 
-background: #FFFFFF;
-/* Theme 1 / Primary Colors 3 */
-
-border: 1px solid white;
-border-radius: 8px;
+  border: 1px solid white;
+  border-radius: 8px;
 }
 
 .twitter {
