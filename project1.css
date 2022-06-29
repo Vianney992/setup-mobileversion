@@ -1,33 +1,32 @@
 header {
   /* header-background-mobile */
 
-position: absolute;
-width: 375px;
-height: 718px;
-left: 500px;
-top: 0px;
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 500px;
+  top: 0;
 
-/* Neutrals/N0 */
+  /* Neutrals/N0 */
 
-background: #FFFFFF;
+  background: #fff;
 }
 
 section {
-/* Headline */
+  /* Headline */
 
-/* Auto layout */
+  /* Auto layout */
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 114px 24px;
-gap: 12px;
-
-position: absolute;
-width: 375px;
-height: 718px;
-left: calc(50% - 375px/2);
-top: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: calc(50% - 375px / 2);
+  top: 92px;
 }
 
 .background-image {
@@ -43,38 +42,37 @@ top: 92px;
 
 .navbar {
   position: absolute;
-left: 0px;
-right: 0px;
-top: 44px;
-bottom: 0px;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
 }
 
 .navbar .logo {
   /* My Logo */
 
-width: 96px;
-height: 20px;
+  width: 96px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 20px;
-/* identical to box height, or 111% */
+  /* identical to box height, or 111% */
 
-display: flex;
-align-items: center;
-text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-/* Primary/B400 */
+  /* Primary/B400 */
 
-color: #6070FF;
+  color: #6070ff;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .navbar .container {
@@ -87,182 +85,176 @@ flex-grow: 0;
 h1 {
   /* Primary Text */
 
-width: 327px;
-height: 150px;
+  width: 327px;
+  height: 150px;
 
-/* Header / 2 */
+  /* Header / 2 */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-/* or 130% */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 
-display: flex;
-align-items: center;
+  /* or 130% */
 
-/* Neutrals/N800 */
+  display: flex;
+  align-items: center;
 
-color: #172B4D;
+  /* Neutrals/N800 */
 
-/* Inside auto layout */
+  color: #172b4d;
 
-flex: none;
-order: 0;
-flex-grow: 0;
+  /* Inside auto layout */
 
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 p {
- /* Primary Text */
+  /* Primary Text */
 
-width: 327px;
-height: 126px;
+  width: 327px;
+  height: 126px;
 
-/* Body / 2 */
-position : absolute;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
+  /* Body / 2 */
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 
-/* Neutrals/N600 */
+  /* or 150% */
 
-color: #344563;
+  /* Neutrals/N600 */
 
-/* Inside auto layout */
+  color: #344563;
 
-flex: none;
-order: 1;
-flex-grow: 0;
+  /* Inside auto layout */
 
-top: 300px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  top: 300px;
 }
 
 button {
- /* Buttons */
+  /* Buttons */
 
-width: 309px;
-height: 24px;
+  width: 309px;
+  height: 24px;
 
-/* Theme 1 / Button Normal */
+  /* Theme 1 / Button Normal */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-/* identical to box height, or 141% */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
+  /* identical to box height, or 141% */
 
-/* Theme 1 / Primary Colors 2 */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: #6070FF;
+  /* Theme 1 / Primary Colors 2 */
 
-/* Inside auto layout */
+  color: #6070ff;
 
-flex: none;
-order: 0;
-flex-grow: 0;
+  /* Inside auto layout */
 
-/* Button / Enable */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 
-box-sizing: border-box;
+  /* Button / Enable */
 
-/* Auto layout */
+  box-sizing: border-box;
 
-flex-direction: row;
-padding: 12px;
-gap: 10px;
+  /* Auto layout */
 
-position: absolute;
-width: 193px;
-height: 48px;
+  flex-direction: row;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
 
-/* Theme 1 / Neutrals 11 */
+  /* Theme 1 / Neutrals 11 */
 
-background: #FFFFFF;
-/* Theme 1 / Primary Colors 3 */
+  background: #fff;
 
-border: 1px solid white;
-border-radius: 8px;
-left : 1%;
+  /* Theme 1 / Primary Colors 3 */
 
-top: 470px;
+  border: 1px solid white;
+  border-radius: 8px;
+  left: 1%;
+  top: 470px;
 }
 
 .twitter {
- /* Vector */
+  /* Vector */
 
-position: absolute;
-left: 6.4%;
-right: 88.27%;
-top: 55.81%;
-bottom: 18.88%;
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 55.81%;
+  bottom: 18.88%;
 
-/* Neutrals/N400 */
+  /* Neutrals/N400 */
 
-background: white;
-
+  background: white;
 }
 
 .linkedin {
   position: absolute;
-left: 16.47%;
-right: 67.2%;
-top: 55.81%;
-bottom: 19.21%;
+  left: 16.47%;
+  right: 67.2%;
+  top: 55.81%;
+  bottom: 19.21%;
 
-/* Neutrals/N400 */
+  /* Neutrals/N400 */
 
-background: white;
+  background: white;
 }
 
 .medium {
   /* Vector */
 
-position: absolute;
-left: 27.47%;
-right: 67.2%;
-top: 55.96%;
-bottom: 19.21%;
+  position: absolute;
+  left: 27.47%;
+  right: 67.2%;
+  top: 55.96%;
+  bottom: 19.21%;
 
-/* Neutrals/N400 */
+  /* Neutrals/N400 */
 
-background: white;
+  background: white;
 }
 
 .github {
   /* Vector */
 
-position: absolute;
-left: 38.13%;
-right: 57.07%;
-top: 55.81%;
-bottom: 18.87%;
+  position: absolute;
+  left: 38.13%;
+  right: 57.07%;
+  top: 55.81%;
+  bottom: 18.87%;
 
-/* Neutrals/N400 */
+  /* Neutrals/N400 */
 
-background: white;
+  background: white;
 }
 
 .angellist {
-/* Vector */
+  /* Vector */
 
-position: absolute;
-left: 48%;
-right: 48.22%;
-top: 55.81%;
-bottom: 18.87%;
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 55.81%;
+  bottom: 18.87%;
 
-/* Neutrals/N400 */
+  /* Neutrals/N400 */
 
-background: white;
+  background: white;
 }
