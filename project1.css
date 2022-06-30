@@ -1,46 +1,57 @@
 header {
+  /* header-background-mobile */
+
   position: absolute;
-  width: 1440px;
-  height: 846px;
-  left: 200px;
-  top: 71px;
+  width: 375px;
+  height: 718px;
+  left: 500px;
+  top: 0;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+}
+
+section {
+  /* Headline */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: calc(50% - 375px / 2);
+  top: 92px;
 }
 
 .background-image {
-  background-image: url("Header bg@2x.png");
+  background-image: url("header-shapes mobile@2x.png");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  width: 1440px;
+  width: 375px;
   height: 846px;
   left: 0;
   top: 40px;
 }
 
-section {
-  position: absolute;
-  width: 1440px;
-  height: 846px;
-  left: 200px;
-  top: 162px;
-}
-
-.container {
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 0 0;
-}
-
 .navbar {
-  background: #fff;
-  color: rgb(0, 0, 0);
-  height: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
 }
 
 .navbar .logo {
   /* My Logo */
 
-  width: 90px;
+  width: 96px;
   height: 20px;
   font-style: normal;
   font-weight: 700;
@@ -48,6 +59,7 @@ section {
   line-height: 20px;
 
   /* identical to box height, or 111% */
+
   display: flex;
   align-items: center;
   text-align: center;
@@ -73,52 +85,48 @@ section {
 h1 {
   /* Primary Text */
 
-  width: 420px;
-  height: 121px;
+  width: 327px;
+  height: 150px;
 
-  /* Header / 1 */
+  /* Header / 2 */
 
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 52px;
 
-  /* or 125% */
+  /* or 130% */
 
   display: flex;
   align-items: center;
-  letter-spacing: 0.37px;
 
-  /* Theme 1 / Neutrals 1 */
+  /* Neutrals/N800 */
 
-  color: #091e42;
+  color: #172b4d;
 
   /* Inside auto layout */
 
   flex: none;
   order: 0;
   flex-grow: 0;
-  position: absolute;
-  left: 0;
-  top: 82px;
 }
 
 p {
   /* Primary Text */
 
-  width: 920px;
-  height: 98px;
+  width: 327px;
+  height: 126px;
 
-  /* Body / 1 */
-
+  /* Body / 2 */
+  position: absolute;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 24px;
 
-  /* or 140% */
+  /* or 150% */
 
-  /* Theme 1 / Neutrals 3 */
+  /* Neutrals/N600 */
 
   color: #344563;
 
@@ -127,106 +135,126 @@ p {
   flex: none;
   order: 1;
   flex-grow: 0;
-  position: absolute;
-  left: 0;
-  top: 252px;
+  top: 300px;
 }
 
 button {
-  /* LET’S CONNECT */
+  /* Buttons */
 
-  width: 137px;
+  width: 309px;
   height: 24px;
 
-  /* Body / 2 - Bolder */
+  /* Theme 1 / Button Normal */
 
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
 
-  /* identical to box height, or 150% */
+  /* identical to box height, or 141% */
 
-  /* Primary/B300 */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-  color: #7f8cff;
+  /* Theme 1 / Primary Colors 2 */
+
+  color: #6070ff;
 
   /* Inside auto layout */
 
   flex: none;
   order: 0;
   flex-grow: 0;
+
+  /* Button / Enable */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  padding: 12px;
+  gap: 10px;
   position: absolute;
-  left: 0;
-  top: 382px;
+
+  /* Theme 1 / Neutrals 11 */
+
+  background: #fff;
+
+  /* Theme 1 / Primary Colors 3 */
+
+  border: 1px solid white;
+  border-radius: 8px;
+  left: 1%;
+  top: 470px;
 }
 
 .twitter {
-  /* twitter */
+  /* Vector */
 
   position: absolute;
-  left: 0.06%;
-  right: 80.56%;
-  top: 52.53%;
-  bottom: 87.08%;
+  left: 6.4%;
+  right: 88.27%;
+  top: 55.81%;
+  bottom: 18.88%;
 
   /* Neutrals/N400 */
 
-  background: #505f79;
+  background: white;
 }
 
 .linkedin {
-  /* linkedin */
-
   position: absolute;
-  left: 3.06%;
-  right: 80.56%;
-  top: 52.53%;
-  bottom: 87.08%;
+  left: 16.47%;
+  right: 67.2%;
+  top: 55.81%;
+  bottom: 19.21%;
 
   /* Neutrals/N400 */
 
-  background: #505f79;
+  background: white;
 }
 
 .medium {
-  /* medium */
+  /* Vector */
 
   position: absolute;
-  left: 6.06%;
-  right: 80.56%;
-  top: 52.83%;
-  bottom: 87.08%;
+  left: 27.47%;
+  right: 67.2%;
+  top: 55.96%;
+  bottom: 19.21%;
 
   /* Neutrals/N400 */
 
-  background: #505f79;
+  background: white;
 }
 
 .github {
-  /* github */
+  /* Vector */
 
   position: absolute;
-  left: 9.06%;
-  right: 80.56%;
-  top: 52.53%;
-  bottom: 87.08%;
+  left: 38.13%;
+  right: 57.07%;
+  top: 55.81%;
+  bottom: 18.87%;
 
   /* Neutrals/N400 */
 
-  background: #505f79;
+  background: white;
 }
 
 .angellist {
-  /* angellist */
+  /* Vector */
 
   position: absolute;
-  left: 12.06%;
-  right: 80.56%;
-  top: 52.53%;
-  bottom: 87.08%;
+  left: 48%;
+  right: 48.22%;
+  top: 55.81%;
+  bottom: 18.87%;
 
   /* Neutrals/N400 */
 
-  background: #505f79;
+  background: white;
 }
