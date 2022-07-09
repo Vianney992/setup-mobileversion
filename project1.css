@@ -78,8 +78,6 @@ section {
 }
 
 .navbar .logo {
-  /* My Logo */
-
   width: 96px;
   height: 20px;
   font-style: normal;
@@ -93,6 +91,14 @@ section {
   flex: none;
   order: 0;
   flex-grow: 0;
+  transition: width 2s, height 2s, background-color 4s, transform 2s;
+}
+
+.navbar .logo:hover {
+  background-color: #f0e8e8;
+  width: 100px;
+  height: 100px;
+  transform: rotate(360deg);
 }
 
 .navbar .container {
@@ -142,6 +148,12 @@ section {
   left: 20px;
 }
 
+.Portoflio:hover {
+  background-color: #7980e7;
+  width: 70px;
+  height: 50px;
+}
+
 .About {
   width: 46px;
   height: 20px;
@@ -160,6 +172,12 @@ section {
   left: 135px;
 }
 
+.About:hover {
+  background-color: #7980e7;
+  width: 50px;
+  height: 50px;
+}
+
 .Contact {
   width: 62px;
   height: 20px;
@@ -176,6 +194,12 @@ section {
   flex-grow: 0;
   position: absolute;
   left: 220px;
+}
+
+.Contact:hover {
+  background-color: #7980e7;
+  width: 70px;
+  height: 50px;
 }
 
 .material-symbols-outlined {
