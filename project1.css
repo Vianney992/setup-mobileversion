@@ -7,7 +7,7 @@ header {
   background: #fff;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   header {
     position: absolute;
     width: 1400px;
@@ -31,14 +31,14 @@ section {
   top: 92px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 114px 24px;
     gap: 12px;
-    position: absolute;
+    
     width: 1400px;
     height: 916px;
     left: calc(30% - 375px / 2);
@@ -57,7 +57,7 @@ section {
   top: 40px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .background-image {
     background-image: url("Header bg.svg");
     background-size: contain;
@@ -113,7 +113,7 @@ section {
   width: 300px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .container1 {
     display: flex;
     justify-content: end;
@@ -184,7 +184,7 @@ section {
   flex: none;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .material-symbols-outlined {
     display: none;
     color: white;
@@ -206,7 +206,7 @@ h1 {
   flex-grow: 0;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   h1 {
     color: #172b4d;
     width: 343px;
@@ -229,7 +229,7 @@ p {
   top: 300px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   p {
     position: absolute;
     width: 880px;
@@ -264,7 +264,7 @@ button {
   top: 480px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   button {
     top: 390px;
   }
@@ -284,7 +284,7 @@ button {
   background: white;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .twitter {
     left: 2.4%;
     top: 440px;
@@ -303,7 +303,7 @@ button {
   background: white;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .linkedin {
     left: 6.4%;
     top: 440px;
@@ -324,7 +324,7 @@ button {
   background: white;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .medium {
     left: 10.4%;
     top: 440px;
@@ -345,7 +345,7 @@ button {
   background: white;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .github {
     left: 14.4%;
     top: 440px;
@@ -366,7 +366,7 @@ button {
   background: white;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .angellist {
     left: 18.4%;
     top: 440px;
