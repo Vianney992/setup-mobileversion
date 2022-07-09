@@ -104,13 +104,25 @@ section {
 }
 
 .container1 {
-  display: flex;
+  display: none;
   justify-content: end;
   align-items: center;
   height: 10%;
   position: absolute;
   left: 1000px;
   width: 300px;
+}
+
+@media screen and (min-width: 480px) {
+  .container1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 10%;
+    position: absolute;
+    left: 1000px;
+    width: 300px;
+  }
 }
 
 .Portoflio {
@@ -167,9 +179,14 @@ section {
   left: 220px;
 }
 
+.material-symbols-outlined {
+  display: flex;
+}
+
 @media screen and (min-width: 480px) {
   .material-symbols-outlined {
-    color: #f9fbfc;
+    display: none;
+    color: white;
   }
 }
 
@@ -191,7 +208,7 @@ h1 {
 @media screen and (min-width: 480px) {
   h1 {
     color: #172b4d;
-    width: 367px;
+    width: 343px;
     height: 150px;
   }
 }
