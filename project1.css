@@ -181,6 +181,7 @@ section {
 
 .material-symbols-outlined {
   display: flex;
+  flex: none;
 }
 
 @media screen and (min-width: 480px) {
